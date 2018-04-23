@@ -43,6 +43,13 @@ brew install openssh
 brew install screen
 brew install homebrew/php/php56 --with-gmp
 
+# Install MySQL source build requirements
+brew install cmake
+brew install ncurses
+brew install bison
+brew install make
+brew install openssl
+
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
