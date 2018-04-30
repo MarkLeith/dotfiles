@@ -50,6 +50,15 @@ brew install bison
 brew install make
 brew install openssl
 
+# Install some Java dev tools
+brew install maven
+
+# Install some Python
+brew install python
+brew install libyaml
+brew unlink python
+brew link python
+
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
